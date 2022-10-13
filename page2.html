@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a2d8f25c5.js" crossorigin="anonymous"></script>
+    <script src="script2.js" defer></script>
+    <title>NightFlix</title>
+</head> 
+<body>
+  <div class="navigation">
+    <h3>J & <span>Global</span></h3>
+    <div>
+    <input id="input" type="search" placeholder="Search"><label class="symbol"><a data-search href="#">Search</a></label>
+    </div>
+    <button id="menu2" class="menuToggle">Menu</button>
+    <ul data-visibility data-toggle="true">
+        <li data-toggle-cross class="xToggle">X</li>
+        <li><a class="nav" href="index.html">Home</a></li>
+        <li><a class="nav" data-log href="#">Login</a></li>
+        <li class="genres-button"><a class="nav" data-genres href="#">Genres</a>
+        </li>
+    </ul>      
+  </div>
+
+  <!-- genres list section -->
+  <div data-genres-hide class="genres-container">
+  
+    <div class="inner-genres-container">
+    <button data-cross-genres class="cross-genres">X</button>
+     <a href="#ACTION">ACTION</a>
+     <a href="#HORROR">HORROR</a>
+     <a href="#ADVENTURE">ADVENTURE</a>
+     <a href="#FANTASY">FANTASY</a>
+     <a href="#HISTORICAL">HISTORICAL</a>
+   </div>
+  </div>
+
+  <!-- login section -->
+<div data-modal class="modal-container">
+  <div class="modal-wrapper">
+    <button data-cross class="cross">X</button>
+    <img src="https://thumbs.dreamstime.com/b/user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg" width="80px">
+    <div data-container>
+      <label>Username: 
+      <input type="text" placeholder="User name"></label>
+      <label>Password:
+      <input type="password" placeholder="Password"></label>
+      <button class="logBtn">Log in</button>
+      <p>You don't have an account? try to <a data-sign href="#">Sign-up</a></p>
+    </div>
+
+    <div data-signUp="false">
+      <label>First name: 
+      <input type="text" placeholder="First name"></label>
+      <label>Your email:        
+      <input type="text" placeholder="First name"></label>
+      <label>Password:
+      <input type="password" placeholder="Last name"></label>
+      <button class="logBtn signBtn">Sign up</button>
+    </div>
+  </div>
+  
+</div>
+
+<!-- Action Section -->
+<div id="ACTION"></div>
+<a href="#" class="arrow-up-none">↑</a>
+
+<div class="main-container">
+  <h2>Action</h2>
+  <div class="flex-box">
+    <button data-button-left class="arrow left"><</button>
+  <div class="movies-container">
+  <a href="available movies/Iron Man 3.html">
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QMfG9P5Lx7NxPsAfdNrU2AJ4s5cIA-tF6Z-zmpCKJMOw1klq" alt="">
+      <p>Iron man 3</p>
+    </div>
+  </a>
+
+  <a href="available movies/jurassic world dominion.html">
+    <div>
+      <img src="https://dx35vtwkllhj9.cloudfront.net/universalstudios/jurassic-world-dominion/images/regions/us/onesheet.jpg" alt="">
+      <p>Jurassic World</p>
+    </div>
+  </a>
+
+  <a href="available movies/The Lost City.html">
+    <div>
+      <img src="https://preview.redd.it/v5m8hwtyww581.jpg?auto=webp&s=6f35d785b6e4d2c9e3fb708735020c35c70d5bc9" alt="">
+      <p>The Lost City</p>
+    </div>
+  </a>
+
+  <a href="available movies/Doctor Strange.html" >
+    <div>
+      <img src="https://lumiere-a.akamaihd.net/v1/images/p_drstrangeinthemultiverseofmadness_245_476cabb1.jpeg" alt="">
+      <p>Doctor Strange</p>
+     </div>
+  </a>
+
+    <a href="available movies/samaritan.html">
+      <div>
+        <img src="https://sportshub.cbsistatic.com/i/2022/07/11/ebf2d6ee-9b2f-4379-9983-62583153bb58/sylvester-stallone-samaritan-prime-video-poster.jpg?auto=webp&width=1080&height=1600&crop=0.675:1,smart" alt="">
+        <p>Samaritan</p>
+      </div>
+    </a>
+
+    <a href="available movies/Uncharted.html">
+      <div>
+      <img src="https://assets-prd.ignimgs.com/2022/01/13/uncharted-poster-full-1642086040683.jpg" alt="">
+      <p>Uncharted</p>
+    </div>
+    </a>
+
+   <a href="available movies/Agent Game.html">
+    <div>
+      <img src="https://images.static-bluray.com/movies/covers/314260_front.jpg?t=1648607569" alt="">
+      <p>Agent Game</p>
+    </div>
+   </a>
+
+    <a href="available movies/Morbius.html">
+      <div>
+        <img src="https://image.tmdb.org/t/p/original/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg" alt="">
+        <p>Morbius</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbLElYghjgbKOJxXIS89_bIWXV3RtB61uG3YRPopoXmeD0rJKf" alt="">
+        <p>Black Widow</p>
+      </div>
+     </a>
+
+     <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvpwdFu20PhT_QfE3MlpsNk7HMkEZj43bvrKa0om52vN0uujcr" alt="">
+        <p>John Wick</p>
+      </div>
+     </a>
+  </div>
+  <button data-button-right class="arrow right">></button>
+</div>
+
+<!-- Horror section -->
+<div id="HORROR"></div>
+<h2 class="movie-title">Horror</h2>
+  <div class="flex-box">
+    <button data-button-left2 class="arrow left"><</button>
+  <div class="movies-container" data-container-img>
+    
+    <a>
+      <div>
+        <img src="https://posterspy.com/wp-content/uploads/2022/03/FNsYTorVsAIMFNa.jpg" alt="">
+        <p>Orphan: First Kill</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://m.media-amazon.com/images/M/MV5BZGNiNDQ2OTAtZWYwOS00ZGVlLThmNmItM2NlMDU5M2QxNzUyXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg" alt="">
+        <p>Hatching</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-IaeZ6sX679wdJSb5JRNnB5DTtkL7E7SPe3B16duZGLQcqhnZ" alt="">
+        <p>Scream</p>
+      </div>
+    </a>
+
+   <a>
+    <div>
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQbMAMNjK9WAITC7ZzOMZYBawBGftvcT1ya8krvYSl-YEGb5m6r" alt="">
+      <p>Prey</p>
+     </div>
+   </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXOqk88VKA4kRPSu6bde9Xnx2eFnYT-epQXqOo_Dx-5df0eCVb" alt="">
+        <p>Smile</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-et_29TQ8ZEP7NXYNujSrSMzhu6Fe4Hd2KkyU0YDQZmRB5yIx" alt="">
+        <p>The Cellar</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTz5EOzWFdBo2c5VxCMz5izhDjc-_DRKyZrjKVIVqSyNbqtrxwn" alt="">
+        <p>The Twin</p>
+      </div>
+  
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLTJI7-UxITWwxhmXY8SKpn4o1B6benarISnWc5F9ig0iPSSMb" alt="">
+        <p>Incantation</p>
+      </div>
+    </a>
+    
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_x7QU23avHtkIikrvU3Ps43VhyRVIeDRt7pS4U_hgpM_ss04" alt="">
+        <p>X</p>
+      </div>
+    </a>
+
+   <a>
+    <div>
+      <img src="https://movies.universalpictures.com/media/fst-tsr1sheet15-rgb-3-poster560x880-6203fe05d1ed2-1.jpg" alt="">
+      <p>Firestarter</p>
+    </div>
+   </a>
+  </div>
+  <button data-button-right2 class="arrow right">></button>
+</div>
+
+<!-- Adventure Section -->
+
+<div id="ADVENTURE"></div>
+<h2 class="movie-title">Adventure</h2>
+  <div class="flex-box">
+    <button data-button-left3 class="arrow left"><</button>
+  <div class="movies-container" data-container2>
+    
+    <a>
+      <div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyrxY400C5_ux6MMqt54MaP_V0hcKGKUmFIuE3ArnId-bGpMF_" alt="">
+        <p>Top Gun: Maverick</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSe5mMRLejXrz96HFWrW1RM3j_6v9lJjqQD4qSQHo-MrMexQ5I-" alt="">
+        <p>Infinite Storm</p>
+      </div>
+    </a>
+    
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJApnr9b8RCQjrOr0YpzqMTY1xXWNrfWHgq0VvNxVNUaG9XyrV" alt="">
+        <p>The Batman</p>
+      </div>
+    </a>
+    
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cJcQvqbHcEHFab5rPMZRVa9ctKGWoO_AgP6YO_DghrxGhH_p" alt="">
+        <p>Fantastic Beasts</p>
+       </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://www.dreamworks.com/storage/cms-uploads/the-bad-guys-posters.jpg" alt="">
+        <p>The Bad Guys</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRChDQITIVlqysDK2HpjYdrc_ip-4hujzLAv_Yuggv8z1SJ_6qD" alt="">
+        <p>The Maze Runner</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMKCNyb_kyTrmK_rK8EFLAvj5A984GcqeUeODA133xuuukoMX" alt="">
+        <p>The Hunger Games</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYn-tpJvWPJV888JUUUzjVUlBu5Pee230-Fmp9NueG70RgPk0S" alt="">
+        <p>The Core</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTKWVTB6ISbbM96Z-SGXEL105xXhp8Zb4q1J9B2Kg8MZ6Tw93DZ" alt="">
+        <p>The Divergent Series</p>
+      </div>
+    </a>
+
+    <a>
+      <div data-rect>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUWWMx_jgapjsM2i2mh3Q8rVJsHFlzW4tWlr-kc0fqz0FKnAYT" alt="">
+        <p>Planet of the Apes</p>
+      </div>
+    </a>
+  </div>
+  <button data-button-right3 class="arrow right">></button>
+</div>
+
+
+<!-- Fantasy Section -->
+<div id="FANTASY"></div>
+<h2 class="movie-title">Fantasy</h2>
+  <div class="flex-box">
+    <button data-button-left4 class="arrow left"><</button>
+  <div class="movies-container" data-container3>
+    
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoPAiV4e6kzHppujbAanXh1yTqJwjtnZuUdZ_rKVDq2C3Z0B96" alt="">
+        <p>Ghost Rider</p>
+      </div>
+    </a>
+
+   <a>
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZhbU5pWXmpsBxgV6PFL-kAxVAihDFPueGh0n2HoUbWZdFp_AC" alt="">
+      <p>Spider-Man: No Way Home</p>
+    </div>
+   </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-aXWqysPiTH9y8xnRYMD-HxyweVKU9PKzpjc0bdwbYfyeMolu" alt="">
+        <p>The New Mutants</p>
+      </div>
+  
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cJcQvqbHcEHFab5rPMZRVa9ctKGWoO_AgP6YO_DghrxGhH_p" alt="">
+        <p>Fantastic Beasts</p>
+       </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxlN5yVLJnpmTyOp33mZ7PRtTs9KqiKmq2pOczXX0Qu_E4SrTY" alt="">
+        <p>Harry Potter</p>
+      </div>
+    </a>
+    
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwuV7aQpPVw2G28kjt3WQ49Kx8VsXb7458iaz8kfy_CaTINXE5" alt="">
+        <p>Clash of the Titans</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtvDs0OKCoxpxgVTE2oHtDZUWPmL1_OLqf78OHbk4RoUbVcv0I" alt="">
+        <p>Percy Jackson</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-hQp-geKRR9PGKRbf-QjY_HA6ha5ZnpQ8dVNbiSMqZi5Z6rue" alt="">
+        <p>The Lord of the Rings</p>
+      </div>
+    </a>
+    
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRIfPCP6-mFMI1fBzgn-ZcQqGB3fBXTvojisdulIMqCgyhs5aKY" alt="">
+        <p>Gods of Egypt</p>
+      </div>
+    </a>
+
+    <a>
+      <div data-rect>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSRSyz4-3OIg8TEpO0Pq9Y0BEAeJOANyJdIUXomxRb-xFHMt0v" alt="">
+        <p>I, Robot</p>
+      </div>
+    </a>
+  </div>
+  <button data-button-right4 class="arrow right">></button>
+</div>
+
+
+<!-- Historical Section -->
+<div id="HISTORICAL"></div>
+<h2 class="movie-title">Historical</h2>
+  <div class="flex-box">
+    <button data-button-left5 class="arrow left"><</button>
+  <div class="movies-container" data-container4>
+    
+   <a>
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLD7BIgtlupMfS1nM6yWAvCiFWjGZcdkh4acn9VJzkSYj7blY" alt="">
+      <p>The Last Duel</p>
+    </div>
+   </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRGARW_6fFVzJuh7j7HGIkUpWmXN-uuqP8rNhVFPTt5YL5P-ED0" alt="">
+        <p>The King's Man</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVU0_yYv3ntvkQvn559srHGDyu9mK-C9n--RXdgT90UaMj3Ea" alt="">
+        <p>Harriet</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTW35B8-OUeYO9b3pNoqvPa6MLG_y-7yfs9LmkjSUCkQeGOOD3s" alt="">
+        <p>The Greatest Showman</p>
+       </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQxbgp4ZRJr3tBkEJ7DO5KMdF6vGP7Q2HdOyvAhcv4KW_cqmMsk" alt="">
+        <p>Dunkirk</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRXGR5bwJorOZmmxreoD1ZWnE-V7tdDdfInfHKWLTXamVsIXZmZ" alt="">
+        <p>Ford v Ferrari</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTibSs29a8Q_l_YvozQD63qV0QBNoZI6FH-JPIXuwWsXxW6gbpk" alt="">
+        <p>Exodus: Gods and Kings</p>
+      </div>
+    </a>
+
+    <a>
+      <div>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSM3iBSrlJZ53yCEGRaJwBFOB6YXhjO_XwZH9Ck0Nh-f7K0QAFq" alt="">
+        <p>Bohemian Rhapsody</p>
+      </div>
+    </a>
+
+   <a>
+    <div>
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT07HGLxkRDDt5z_MOw-w4B4rT31sXa2qSIjJxreZWFVqbf3bDa" alt="">
+      <p>Heneral Luna</p>
+    </div>
+   </a>
+
+    <a>
+      <div data-rect>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSZmuVJhFDLrIvYHwHFMXZUh2r-zkmS_A9UIGDelj870aQ3MIGz" alt="">
+        <p>Shamshera</p>
+      </div>
+    </a>
+  </div>
+  <button data-button-right5 class="arrow right">></button>
+</div>
+</div>
+
+</body>
+</html>
