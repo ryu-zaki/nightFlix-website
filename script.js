@@ -1,6 +1,3 @@
-window.addEventListener('load', () => {
-  alert('Enjoy ssob :>')
-})
 /* variables */
 const img = document.querySelector('.img');
 const crossBtn = document.querySelector('[data-cross]');
