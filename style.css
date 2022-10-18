@@ -608,6 +608,10 @@ footer p {
     .wrapper {
         margin-top: 9rem;
     }
+    
+    .main-container .flex-box .last-genre {
+        margin-bottom: 6rem;
+    }
 }
 
 @media (max-width: 975px) {
