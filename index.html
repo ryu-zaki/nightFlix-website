@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="240_F_303471191_BnCZIdg5uS4l6Hicsf80x24mu782IKzJ-removebg-preview.png">
+    <title>NightFlix</title>
+</head> 
+<body>
+  <div class="navigation">
+    <h3>J & <span>Global</span></h3>
+    <div>
+    <input id="input" type="text" placeholder="Search"><label class="symbol">Search</label>
+    </div>
+    <button id="menu" class="menuToggle">Menu</button>
+    <ul data-visibility data-toggle="true">
+        <li data-toggle-cross class="xToggle">X</li>
+        <li><a class="nav" data-home  href="#">Home</a></li>
+        <li data-loginCon><a class="nav" data-log href="#">Login</a></li>
+        <li data-logoutCon style="display: none;"><a class="nav" data-logout href="#">Logout</a></li>
+        <li><a class="nav" id="genreBtn1" data-genre href="#">Genres</a></li>
+    </ul>      
+  </div>
+  
+  <!-- custom alert box -->
+<div data-popup-con="false" class="popup-container">
+ <div data-popup="false" class="custom-popup">
+    <h2 data-symbol-popup>✓</h2>
+    <p data-para></p>
+    <button data-popupX>Ok</button>
+  </div>
+</div>
+  
+
+<div class="wrapper">
+  <div class="header">
+    <h2 class="title">Night<span>Flix</span></h2>
+    <p class="para">Enjoy the movies with our Nightflix website. To watch a latest movies, please click the subscription button below. We will do our best to give you a better experience in this platform. have a nice day!</p>
+    <button data-subscribe class="btn">Subscribe</button>
+    <button data-unsubscribe style="display: none;" class="btn">Unsubscribe</button>
+  </div>
+  
+  <div class="card">
+    <div  class="inner-card">
+       <h3>Movies</h3>
+       <div data-src="data1" class="img"></div>
+    </div>
+  </div>
+</div>
+
+<!-- login section -->
+<div data-modal class="modal-container">
+  <div class="modal-wrapper">
+    <button data-cross class="cross">X</button>   
+    <img src="https://thumbs.dreamstime.com/b/user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg" width="80px">
+    <h2 class="login-signup">Log in</h2>
+    <div data-container>
+
+     <div class="input-box">
+      <input data-userName type="text" required>
+      <span>Username</span>
+      <i></i>
+     </div> 
+
+     <div class="input-box" style="margin: 0;">
+      <input data-password type="password" required>
+      <span>Password</span>
+      <i></i>
+     </div> 
+
+     <button data-logBtn class="logBtn">Log in</button>
+      <p class="logSignPara">You don't have an account? try to <a data-sign href="#">Sign-up</a></p>
+    </div>
+
+    <div data-signUp="false">
+      <div class="input-box">
+        <input id="userSign" type="text" required>
+        <span>Username</span>
+        <i></i>
+       </div> 
+
+       <div class="input-box">
+        <input id="email" type="text" required>
+        <span>Your Email</span>
+        <i></i>
+       </div> 
+
+       <div class="input-box" style="margin: 0;">
+        <input id="passwordSign" type="password" required>
+        <span>Password</span>
+        <i></i>
+       </div>  
+      <button data-signBtn class="logBtn signBtn">Sign up</button>
+      <p style="opacity: 0;">You don't have an account? try to <a>Sign-up</a></p>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div>
+    <h3>J & Global corporation</h3>
+    <p>This project was created by Jhonwell Española</p>
+    <p style="font-size: .9rem; opacity: .9;">Thank you for visiting us!</p>
+  </div>
+</footer>
+</body>
+</html>
